@@ -1,0 +1,4 @@
+/Users/amankumar/Documents/tinydb/build/CMakeFiles/tinydb.dir
+/Users/amankumar/Documents/tinydb/build/CMakeFiles/tinydb_cli.dir
+/Users/amankumar/Documents/tinydb/build/CMakeFiles/edit_cache.dir
+/Users/amankumar/Documents/tinydb/build/CMakeFiles/rebuild_cache.dir
