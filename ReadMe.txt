@@ -1,4 +1,3 @@
-````markdown
 # TinyDB
 
 A high-performance, dynamic relational database engine built entirely from scratch in under 1,000 lines of modern C++.
@@ -81,13 +80,9 @@ export csv users output.csv
 When a table is created, TinyDB generates three tightly coupled binary files:
 
 - `table_name.schema`: Stores the column definitions and byte-arity of the table.
-
 - `table_name.db`: The core 4KB block-paged data file.
-
 - `table_name.index`: The serialized map of ID primary keys to absolute global byte offsets.
-````
 
-```markdown
 ---
 
 ## 🧠 Concepts Demonstrated
@@ -124,4 +119,3 @@ When a table is created, TinyDB generates three tightly coupled binary files:
 - LinkedIn: https://www.linkedin.com/in/aman-kumar-016927308/
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
-```
