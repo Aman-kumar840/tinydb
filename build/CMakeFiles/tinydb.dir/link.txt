@@ -1,2 +1,2 @@
-/usr/bin/ar qc libtinydb.a CMakeFiles/tinydb.dir/src/storage.cpp.o
+/usr/bin/ar qc libtinydb.a CMakeFiles/tinydb.dir/src/storage.cpp.o CMakeFiles/tinydb.dir/src/table.cpp.o CMakeFiles/tinydb.dir/src/table_storage.cpp.o
 /usr/bin/ranlib libtinydb.a

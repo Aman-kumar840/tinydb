@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/amankumar/Documents/tinydb/src/storage.cpp" "CMakeFiles/tinydb.dir/src/storage.cpp.o" "gcc" "CMakeFiles/tinydb.dir/src/storage.cpp.o.d"
+  "/Users/amankumar/Documents/tinydb/src/table.cpp" "CMakeFiles/tinydb.dir/src/table.cpp.o" "gcc" "CMakeFiles/tinydb.dir/src/table.cpp.o.d"
+  "/Users/amankumar/Documents/tinydb/src/table_storage.cpp" "CMakeFiles/tinydb.dir/src/table_storage.cpp.o" "gcc" "CMakeFiles/tinydb.dir/src/table_storage.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

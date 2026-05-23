@@ -86,17 +86,49 @@ CMakeFiles/tinydb.dir/src/storage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinydb.dir/src/storage.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amankumar/Documents/tinydb/src/storage.cpp -o CMakeFiles/tinydb.dir/src/storage.cpp.s
 
+CMakeFiles/tinydb.dir/src/table.cpp.o: CMakeFiles/tinydb.dir/flags.make
+CMakeFiles/tinydb.dir/src/table.cpp.o: /Users/amankumar/Documents/tinydb/src/table.cpp
+CMakeFiles/tinydb.dir/src/table.cpp.o: CMakeFiles/tinydb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tinydb.dir/src/table.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tinydb.dir/src/table.cpp.o -MF CMakeFiles/tinydb.dir/src/table.cpp.o.d -o CMakeFiles/tinydb.dir/src/table.cpp.o -c /Users/amankumar/Documents/tinydb/src/table.cpp
+
+CMakeFiles/tinydb.dir/src/table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tinydb.dir/src/table.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amankumar/Documents/tinydb/src/table.cpp > CMakeFiles/tinydb.dir/src/table.cpp.i
+
+CMakeFiles/tinydb.dir/src/table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinydb.dir/src/table.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amankumar/Documents/tinydb/src/table.cpp -o CMakeFiles/tinydb.dir/src/table.cpp.s
+
+CMakeFiles/tinydb.dir/src/table_storage.cpp.o: CMakeFiles/tinydb.dir/flags.make
+CMakeFiles/tinydb.dir/src/table_storage.cpp.o: /Users/amankumar/Documents/tinydb/src/table_storage.cpp
+CMakeFiles/tinydb.dir/src/table_storage.cpp.o: CMakeFiles/tinydb.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tinydb.dir/src/table_storage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tinydb.dir/src/table_storage.cpp.o -MF CMakeFiles/tinydb.dir/src/table_storage.cpp.o.d -o CMakeFiles/tinydb.dir/src/table_storage.cpp.o -c /Users/amankumar/Documents/tinydb/src/table_storage.cpp
+
+CMakeFiles/tinydb.dir/src/table_storage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tinydb.dir/src/table_storage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amankumar/Documents/tinydb/src/table_storage.cpp > CMakeFiles/tinydb.dir/src/table_storage.cpp.i
+
+CMakeFiles/tinydb.dir/src/table_storage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinydb.dir/src/table_storage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amankumar/Documents/tinydb/src/table_storage.cpp -o CMakeFiles/tinydb.dir/src/table_storage.cpp.s
+
 # Object files for target tinydb
 tinydb_OBJECTS = \
-"CMakeFiles/tinydb.dir/src/storage.cpp.o"
+"CMakeFiles/tinydb.dir/src/storage.cpp.o" \
+"CMakeFiles/tinydb.dir/src/table.cpp.o" \
+"CMakeFiles/tinydb.dir/src/table_storage.cpp.o"
 
 # External object files for target tinydb
 tinydb_EXTERNAL_OBJECTS =
 
 libtinydb.a: CMakeFiles/tinydb.dir/src/storage.cpp.o
+libtinydb.a: CMakeFiles/tinydb.dir/src/table.cpp.o
+libtinydb.a: CMakeFiles/tinydb.dir/src/table_storage.cpp.o
 libtinydb.a: CMakeFiles/tinydb.dir/build.make
 libtinydb.a: CMakeFiles/tinydb.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtinydb.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libtinydb.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/tinydb.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinydb.dir/link.txt --verbose=$(VERBOSE)
 

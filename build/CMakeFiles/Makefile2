@@ -88,12 +88,12 @@ clean: CMakeFiles/tinydb_cli.dir/clean
 CMakeFiles/tinydb.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydb.dir/build.make CMakeFiles/tinydb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydb.dir/build.make CMakeFiles/tinydb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=1,2 "Built target tinydb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=1,2,3,4 "Built target tinydb"
 .PHONY : CMakeFiles/tinydb.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tinydb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amankumar/Documents/tinydb/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amankumar/Documents/tinydb/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tinydb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amankumar/Documents/tinydb/build/CMakeFiles 0
 .PHONY : CMakeFiles/tinydb.dir/rule
@@ -105,7 +105,7 @@ tinydb: CMakeFiles/tinydb.dir/rule
 # codegen rule for target.
 CMakeFiles/tinydb.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydb.dir/build.make CMakeFiles/tinydb.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=1,2 "Finished codegen for target tinydb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target tinydb"
 .PHONY : CMakeFiles/tinydb.dir/codegen
 
 # clean rule for target.
@@ -120,12 +120,12 @@ CMakeFiles/tinydb.dir/clean:
 CMakeFiles/tinydb_cli.dir/all: CMakeFiles/tinydb.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydb_cli.dir/build.make CMakeFiles/tinydb_cli.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydb_cli.dir/build.make CMakeFiles/tinydb_cli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=3,4 "Built target tinydb_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=5,6 "Built target tinydb_cli"
 .PHONY : CMakeFiles/tinydb_cli.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tinydb_cli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amankumar/Documents/tinydb/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amankumar/Documents/tinydb/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tinydb_cli.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amankumar/Documents/tinydb/build/CMakeFiles 0
 .PHONY : CMakeFiles/tinydb_cli.dir/rule
@@ -137,7 +137,7 @@ tinydb_cli: CMakeFiles/tinydb_cli.dir/rule
 # codegen rule for target.
 CMakeFiles/tinydb_cli.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tinydb_cli.dir/build.make CMakeFiles/tinydb_cli.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=3,4 "Finished codegen for target tinydb_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/amankumar/Documents/tinydb/build/CMakeFiles --progress-num=5,6 "Finished codegen for target tinydb_cli"
 .PHONY : CMakeFiles/tinydb_cli.dir/codegen
 
 # clean rule for target.

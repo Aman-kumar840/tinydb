@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tinydb.dir/src/storage.cpp.o"
   "CMakeFiles/tinydb.dir/src/storage.cpp.o.d"
+  "CMakeFiles/tinydb.dir/src/table.cpp.o"
+  "CMakeFiles/tinydb.dir/src/table.cpp.o.d"
+  "CMakeFiles/tinydb.dir/src/table_storage.cpp.o"
+  "CMakeFiles/tinydb.dir/src/table_storage.cpp.o.d"
   "libtinydb.a"
   "libtinydb.pdb"
 )
